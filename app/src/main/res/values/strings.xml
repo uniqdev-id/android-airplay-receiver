@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNIQ TV Airplay</string>
+    <string name="notif_channel">AirPlay service</string>
+    <string name="standby_title">UNIQ TV Airplay</string>
+    <string name="standby_subtitle">Android TV · lightweight AirPlay mirroring receiver</string>
+    <string name="row_name">Broadcast name</string>
+    <string name="row_ip">Local IP</string>
+    <string name="row_net">Network</string>
+    <string name="row_status">Status</string>
+    <string name="test_button">Open mirroring surface (test)</string>
+</resources>

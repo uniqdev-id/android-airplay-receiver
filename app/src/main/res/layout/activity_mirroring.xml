@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Phase 4: MediaCodec output surface, aspect-ratio-locked. -->
+    <SurfaceView
+        android:id="@+id/mirror_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Phase 6: debug HUD (resolution / FPS / audio status). -->
+</FrameLayout>

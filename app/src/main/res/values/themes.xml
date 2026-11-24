@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TV launcher + standby: plain Material dark, no AppCompat needed. -->
+    <style name="Theme.AirPlay" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_dim</item>
+    </style>
+
+    <!-- Mirroring: pure black, edge to edge. -->
+    <style name="Theme.AirPlay.Mirroring">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>
